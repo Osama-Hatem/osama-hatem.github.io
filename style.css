@@ -20,7 +20,7 @@ a { color:inherit; text-decoration:none; }
 .hero h1 { position:relative; z-index:3; width:min(760px,65vw); margin-top:24px; font-family:"Barlow Condensed","DM Sans",sans-serif; font-size:clamp(78px,11vw,185px); line-height:.84; letter-spacing:-.04em; font-weight:700; width: fit-content; display: flex; flex-direction: column; justify-content: start; }
 .hero h1 span {position: relative; display: flex; flex-direction: row; justify-content: start; padding-bottom: 35px;}
 .hero h1 span,.projects-header h2 span,.skills-layout h2 span,.contact-layout h2 span { color:var(--blue); }
-.hero-image-wrap { position:absolute; z-index:4; left:29.5%; transform:translateX(+80%); bottom: 0; width:min(46vw,650px); height:76vh; min-height:550px; display:flex; justify-content:center; align-items:flex-end; }
+.hero-image-wrap { position:absolute; z-index:4; left:29.5%; transform:translateX(+80%); top: 0; width:min(46vw,650px); height:76vh; min-height:550px; display:flex; justify-content:center; align-items:flex-end; }
 .hero-glow { position:absolute; width:80%; height:75%; bottom:5%; border-radius:50%; background:radial-gradient(ellipse,rgba(45,140,255,.52),transparent 68%); filter:blur(25px); }
 .hero-image { position:relative; z-index:2; width:130%; height:130%; object-fit:contain; object-position:right center; filter:grayscale(100%) contrast(1.12); mix-blend-mode:screen; }
 .hero-description { position:relative; z-index: index 3; width:min(320px,30vw); color:var(--ice); font-size:20px; line-height:1.7; display: flex; flex-direction: column; justify-content: start; padding-top: auto;}
