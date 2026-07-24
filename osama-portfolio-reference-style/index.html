@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Osama Hatem — Engineer & Builder</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700;800&family=DM+Sans:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="site-shell">
+        <header class="topbar">
+            <a class="brand" href="#top">OSAMA HATEM</a>
+            <nav class="desktop-nav">
+                <a href="#projects">Projects</a>
+                <a href="#experience">Experience</a>
+                <a href="#skills">Skills</a>
+                <a href="#story">Story</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <div class="top-socials" aria-label="Social links">
+                <a data-social="github" href="#" aria-label="GitHub">GH</a>
+                <a data-social="linkedin" href="#" aria-label="LinkedIn">in</a>
+                <a data-social="email" href="#" aria-label="Email">@</a>
+            </div>
+            <a class="menu-pill" href="#contact">Let's talk <span>↗</span></a>
+        </header>
+
+        <main id="top">
+            <section class="hero">
+                <div class="hero-kicker">HELLO, I'M OSAMA</div>
+                <h1>I BUILD<br><span>ANSWERS.</span></h1>
+
+                <div class="hero-image-wrap">
+                    <div class="hero-glow"></div>
+                    <img src="assets/p.jpeg" alt="Osama Hatem" class="hero-image">
+                </div>
+                <div class="hero-quote">
+                    <span class="quote-mark">“</span>
+                    <p>The goal isn't just to build projects. It's to understand the world deeply enough to improve it.</p>
+                    <span class="quote-mark closing">”</span>
+                </div>
+
+                <div class="hero-description">
+                    <p>I build systems that collect data, detect events, solve problems, and make a real impact. Engineering student. Builder. Researcher. Always learning.</p>
+                    <div class="hero-links">
+                        <a data-social="github" href="#">GitHub ↗</a>
+                        <a data-social="linkedin" href="#">LinkedIn ↗</a>
+                        <a data-social="email" href="#">Email ↗</a>
+                    </div>
+                </div>
+
+                <div class="hero-contact">
+                    <span>BASED IN</span>
+                    <strong>EGYPT</strong>
+                </div>
+
+                <div class="scroll-label">SCROLL ↓</div>
+            </section>
+
+            <section class="projects section" id="projects">
+                <div class="section-index">01</div>
+                <div class="section-title">SELECTED WORK</div>
+                <div class="projects-header">
+                    <h2>THINGS<br><span>I BUILT.</span></h2>
+                </div>
+                <div class="project-grid" id="project-grid"></div>
+            </section>
+
+            <section class="experience section" id="experience">
+                <div class="section-index">02</div>
+                <div class="section-title">EXPERIENCE & EDUCATION</div>
+                <div class="timeline" id="timeline"></div>
+            </section>
+
+            <section class="skills section" id="skills">
+                <div class="section-index">03</div>
+                <div class="section-title">MY SKILLS</div>
+                <div class="skills-layout">
+                    <h2>WHAT I<br><span>CAN BUILD.</span></h2>
+                    <div class="skill-list" id="skill-list"></div>
+                </div>
+            </section>
+
+            <section class="story section" id="story">
+                <div class="section-index">04</div>
+                <div class="section-title">MY STORY</div>
+                <div class="story-layout">
+                    <div class="story-lead">
+                        <p class="big-copy">I started programming because I was too lazy to open three apps at once.</p>
+                        <p>That small project became a habit: when I become curious about something, I try to understand it deeply enough to build it myself. Since then, I have moved through software, data, AI, physics, research, and engineering projects with the same question: <em>how does this actually work?</em></p>
+                    </div>
+                    <div class="story-steps" id="story-steps"></div>
+                </div>
+            </section>
+
+            <section class="contact section" id="contact">
+                <div class="section-index">05</div>
+                <div class="section-title">LET'S CONNECT</div>
+                <div class="contact-layout">
+                    <h2>HAVE A<br><span>QUESTION?</span></h2>
+                    <div>
+                        <p>I'm always interested in interesting problems, ambitious projects, research, and conversations that lead somewhere.</p>
+                        <a class="contact-button" data-social="email" href="#">GET IN TOUCH ↗</a>
+                        <a class="cv-link" id="cv-link" href="assets/cv.pdf" download>DOWNLOAD CV ↓</a>
+                    </div>
+                </div>
+                <div class="contact-links" id="contact-links"></div>
+            </section>
+        </main>
+
+        <footer>
+            <span>© 2026 OSAMA HATEM</span>
+            <div class="footer-socials">
+                <a data-social="github" href="#" aria-label="GitHub">GitHub</a>
+                <a data-social="linkedin" href="#" aria-label="LinkedIn">LinkedIn</a>
+                <a data-social="email" href="#" aria-label="Email">Email</a>
+            </div>
+            <span>BUILT WITH CURIOSITY.</span>
+        </footer>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
