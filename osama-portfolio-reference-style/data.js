@@ -1,10 +1,3 @@
-/*
-    EDIT THIS FILE TO UPDATE THE SITE
-    - Replace assets/profile.jpg to change your profile photo.
-    - Replace assets/cv.pdf to change your CV.
-    - Change the social links below.
-    - Add projects by adding another object to the projects array.
-*/
 const portfolioData = {
     socials: {
         github: "https://github.com/Osama-Hatem",
@@ -26,7 +19,7 @@ const portfolioData = {
         { name:"Data & SQL", level:"Advanced", description:"Data collection, normalization, SQLite, relational modelling, querying, and research data pipelines." },
         { name:"Backend & Systems Design", level:"Intermediate", description:"Designing services, CLIs, web interfaces, databases, integrations, and maintainable system workflows." },
         { name:"AI & Computer Vision", level:"Intermediate", description:"YOLO-based detection, machine learning concepts, computer vision workflows, and AI system design." },
-        { name:"Cloud & DevOps", level:"Intermediate", description:"AWS architecture, Docker, Linux, networking fundamentals, deployment, cost awareness, and observability." },
+        { name:"Cloud & DevOps", level:"Beginner", description:"AWS architecture, Docker, Linux, networking fundamentals, deployment, cost awareness, and observability." },
         { name:"Research & Data Analysis", level:"Advanced", description:"Research questions, literature exploration, data analysis, experimentation, and translating questions into measurable work." },
         { name:"Physics & Engineering", level:"Advanced", description:"Mathematics, physics, energy systems, problem solving, and applying theory to real engineering questions." },
         { name:"Git, Testing & Engineering Practice", level:"Intermediate", description:"Version control, pytest, debugging, documentation, modular code, and iterative engineering workflows." }
