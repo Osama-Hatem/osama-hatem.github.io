@@ -7,9 +7,9 @@
 */
 const portfolioData = {
     socials: {
-        github: "https://github.com/YOUR_USERNAME",
-        linkedin: "https://www.linkedin.com/in/YOUR_USERNAME",
-        email: "mailto:your@email.com"
+        github: "https://github.com/Osama-Hatem",
+        linkedin: "www.linkedin.com/in/osama-hatem-1a20443ab",
+        email: "osama.hatem.oh@gmail.com"
     },
     projects: [
         { title:"Research Data Pipeline", category:"SOFTWARE / RESEARCH", description:"A Python research-paper collection pipeline that searches OpenAlex, normalizes papers, stores authors and relationships in SQLite, and exposes the workflow through both a CLI and a Django interface.", technologies:["Python","SQLite","Django","APIs"], image:"assets/projects/research-pipeline.jpg", link:"https://github.com/YOUR_USERNAME/research-data-pipeline" },
@@ -18,7 +18,7 @@ const portfolioData = {
     ],
     timeline: [
         { date:"2025 — PRESENT", title:"Independent Engineering & Research", description:"Building software systems, AI projects, research tooling, and engineering projects while developing a deeper understanding of how systems work." },
-        { date:"2025", title:"IPhyC Placement", description:"A competitive academic experience that strengthened my interest in physics, problem solving, and rigorous technical thinking." },
+        { date:"2026", title:"IPhyC Placement", description:"A competitive academic experience that strengthened my interest in physics, problem solving, and rigorous technical thinking." },
         { date:"CURRENT", title:"STEM Education", description:"Developing across mathematics, physics, computer science, engineering, and research." }
     ],
     skills: [
